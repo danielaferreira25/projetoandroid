@@ -1,0 +1,98 @@
+@charset "UTF-8"
+
+body {
+    background-color: #c5ebd6 ;
+}
+
+header {
+    background-color: rgb(211, 211, 211);
+    min-width:150px; 
+    text-align: center;
+    font-family:var(--fonte-padrao) ;
+     }
+
+header h1 {
+    color: green;
+    font-family: var(--fonte-destaque);
+    font-size:3em;
+    margin-bottom:20px ;
+    text-shadow: 2px 2px 2px rgb(116, 115, 115) ;
+}
+
+ h1 p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+ nav {
+    background-color: rgb(187, 250, 187);
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.5s;
+    text-align:center;
+
+ }
+ nav a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+
+ }
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0px 0px 0px rgb(136, 135, 135) ;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    
+
+
+
+}
+
+p {
+    margin: 15px 0px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width:350px;
+    display: block;
+    margin: auto;
+}
+
+aside > ul {
+    
+    list-style-position: inside;
+    columns: 2;
+   
+
+}
+
+aside {
+    background-color: #c5ebd6;
+    padding: 18px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px 10px 0px 10px;
+}
+
+ aside > h3 {
+  
+    background-color: #255f3f;
+    color: white;
+    border-radius: 100px;
+    margin: 4px 4px 5px 5px ;
+    text-align: center;
+
+ }
+footer p {
+    background-color: rgb(187, 250, 187) ;
+    color: #000000;
+    text-align: center;
+    border-radius: 20px;
